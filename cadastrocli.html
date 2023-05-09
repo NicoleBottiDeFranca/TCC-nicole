@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="cadastrocli.css">
+    
+</head>
+<body>
+
+<form class="orizontal">
+<fieldset>
+  <!-- parte de cima cadastro-->
+  <div class="content">
+<div class=" panel-primary">
+    <div class="panel-heading">Cadastro de Cliente</div>
+    
+    <div class="panel-body">
+<div class="form-group">
+</div>
+</div>
+    
+
+
+<!-- Text input-->
+  
+<div class="form-group">
+  <label  for="Nome">Nome </label>  <div class="col-md-8">
+  <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label for="cpf">CPF/CNPJ</label>  
+  <div class="col-md-2">
+  <input id="cpf" name="cpf" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
+  </div>
+    
+  
+  <label  for="Nome">Nascimento</label>  
+  <div class="col-md-2">
+  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" >
+
+ </label>
+  </div>
+</div>
+
+<!-- Prepended text-->
+<div class="form-group">
+  <label  for="tel">Telefone </label>
+  <div class="col-md-2">
+    <div class="input-group">
+      <span class="input-group-addon"></span>
+      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX" required="" type="text" maxlength="13">
+      
+  
+  
+   
+ </div> 
+
+<!-- Prepended text-->
+<div class="form-group">
+  <label  for="email">Email </label>
+  <div class="col-md-5">
+    <div class="input-group">
+      <span class="input-group-addon"></i></span>
+      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="email@email.com" required="" type="text"  >
+    </div>
+  </div>
+</div>
+
+
+<!-- Search input-->
+<div class="form-group">
+ 
+</div>
+
+<!-- Prepended text-->
+<div class="form-group">
+  <br>
+  <label  for="end">Endereço:</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <label  for="rua">Rua<label>
+      <input id="rua" name="rua" class="form-control" placeholder="" required=""  type="text">
+    </div>
+    
+  </div>
+    <div class="col-md-2">
+    <div class="input-group">
+    <label  for="n">  Nº </label>
+      <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
+    </div>
+    
+  </div>
+  
+  <div class="col-md-3">
+    <div class="input-group">
+      <label  for="bairro"> Bairro  </label>
+      <input id="bairro" name="bairro" class="form-control" placeholder="" required=""  type="text">
+    </div>
+    
+  </div>
+</div>
+
+
+ 
+  <div class="col-md-4">
+    <div class="input-group">
+      <label  for="cid"> Cidade </label>
+      <input id="cidade" name="cidade" class="form-control" placeholder="" required=""  type="text">
+    </div>
+    
+  </div>
+    </div?
+   
+  </div>
+<div class="form-group">
+  <label class="col-md-2 control-label" for="Cadastrar"></label>
+  <div class="col-md-8">
+    <button id="Cadastrar" name="Cadastrar" class="btn1 " type="Submit">Cadastrar</button>
+    <button id="Cancelar" name="Cancelar" class="btn2 " type="Reset">Cancelar</button>
