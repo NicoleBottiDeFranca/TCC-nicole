@@ -1,0 +1,83 @@
+body {
+    background-color: #8B4513;
+    background-image: url("https://img.freepik.com/fotos-premium/fundo-de-textura-de-madeira-velha-vintage_55716-1138.jpg?w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.384);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #964b00b4;
+    border-radius: 20px;
+
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Cambria;
+    
+
+
+  }
+
+  label {
+    color:#fff;
+    font-size: 1.2rem;
+    font-family: Cambria
+  }
+  
+ input {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #808080;
+    font-family: Cambria;
+    font-weight: bold;
+
+
+
+    
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 5px #964b00;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 55px;
+    
+    }
+  
+  
+  button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #964b00;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+  
+
+  }
+  
+  
+  
